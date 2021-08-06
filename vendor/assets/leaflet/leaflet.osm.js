@@ -2,7 +2,7 @@ L.OSM = {};
 
 L.OSM.TileLayer = L.TileLayer.extend({
   options: {
-    url: 'https://18.144.60.238/tile/{z}/{x}/{y}.png',
+    url: 'http://18.144.60.238/tile/{z}/{x}/{y}.png',
     attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors'
   },
 
@@ -14,7 +14,7 @@ L.OSM.TileLayer = L.TileLayer.extend({
 
 L.OSM.Mapnik = L.OSM.TileLayer.extend({
   options: {
-    url: 'https://18.144.60.238/tile/{z}/{x}/{y}.png',
+    url: 'http://18.144.60.238/tile/{z}/{x}/{y}.png',
     maxZoom: 19
   }
 });
@@ -63,7 +63,7 @@ L.OSM.HOT = L.OSM.TileLayer.extend({
 
 L.OSM.GPS = L.OSM.TileLayer.extend({
   options: {
-    url: 'https://gps.18.144.60.238/lines/{z}/{x}/{y}.png',
+    url: 'http://gps.18.144.60.238/lines/{z}/{x}/{y}.png',
     maxZoom: 21,
     maxNativeZoom: 20,
     subdomains: 'abc'
