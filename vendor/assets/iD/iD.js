@@ -90615,7 +90615,7 @@
 	    var _currSettings = {
 	      template: corePreferences('background-custom-template')
 	    };
-	    var example = 'https://{switch:a,b,c}.tile.openstreetmap.org/{zoom}/{x}/{y}.png';
+	    var example = 'https://{switch:a,b,c}.18.144.60.238/{zoom}/{x}/{y}.png';
 	    var modal = uiConfirm(selection).okButton();
 	    modal.classed('settings-modal settings-custom-background', true);
 	    modal.select('.modal-section.header').append('h3').html(_t.html('settings.custom_background.header'));
@@ -91667,7 +91667,7 @@
 	    var _currSettings = {
 	      fileList: dataLayer && dataLayer.fileList() || null,
 	      url: corePreferences('settings-custom-data-url')
-	    }; // var example = 'https://{switch:a,b,c}.tile.openstreetmap.org/{zoom}/{x}/{y}.png';
+	    }; // var example = 'https://{switch:a,b,c}.18.144.60.238/{zoom}/{x}/{y}.png';
 
 	    var modal = uiConfirm(selection).okButton();
 	    modal.classed('settings-modal settings-custom-data', true);
